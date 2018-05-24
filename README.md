@@ -5,7 +5,7 @@ Yet another dead-simple `High Order Component (HOC)` event handler. Inspired by 
 ## Get started
 
 ```bash
-npm install -S git+https://github.com/tte/react-outside-event-wrapper.git
+npm install -S react-outside-event-wrapper
 ```
 
 ## Usage
