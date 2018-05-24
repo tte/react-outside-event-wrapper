@@ -2,7 +2,7 @@
   "name": "react-outside-event-wrapper",
   "version": "1.0.0",
   "description": "Yet another event outside wrapper",
-  "main": "dist/index.js",
+  "main": "dist/bundle.js",
   "scripts": {
     "build": "webpack"
   },
