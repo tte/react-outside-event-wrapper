@@ -2,9 +2,9 @@
   "name": "react-outside-event-wrapper",
   "version": "1.0.0",
   "description": "Yet another event outside wrapper",
-  "main": "dist/bundle.js",
+  "main": "dist/index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "babel -d dist index.js"
   },
   "repository": {
     "type": "git",
@@ -31,8 +31,8 @@
     "react": "^16.4.0"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1"
